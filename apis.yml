@@ -1,19 +1,52 @@
 aid: caer
 name: Caer
-description: Caer is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Caer, Inc. is the company behind YUMI (helloyumi.com), a direct-to-consumer
+  children's nutrition brand that makes nutritionally-engineered organic snacks
+  for babies, toddlers, and kids. The product line includes toddler bars,
+  squeezable smoothies-to-go, freeze-dried smoothie melts, super/breakfast bars,
+  and soft-baked cookies, all formulated as function-first, nutrient-dense,
+  organic, dairy-free, gluten-free, and clean-label. YUMI sells through its own
+  WooCommerce storefront, Amazon, and select retail, offering one-time purchases
+  and recurring subscription memberships. Backed by 500 Global. This profile was
+  seeded as a venture-portfolio stub; it is a consumer packaged-goods e-commerce
+  brand with no first-party public developer API, so most API-artifact scoring
+  dimensions are not applicable.
 url: https://raw.githubusercontent.com/api-evangelist/caer/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://helloyumi.com/wp-content/uploads/2026/06/image-12.png
 x-type: company
 x-source: vc-portfolio
+x-legal-name: Caer, Inc.
+x-brand: YUMI
+x-industry: consumer-packaged-goods
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-first-party
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Consumer Packaged Goods
+- Food and Beverage
+- E-commerce
+- Baby and Kids
+- Nutrition
+- Direct to Consumer
+- Subscription
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/caer-domain-security.yml
 - type: Website
   url: https://helloyumi.com
+- type: Pricing
+  url: https://helloyumi.com/shop/
+- type: SignUp
+  url: https://helloyumi.com/my-account/
+- type: TermsOfService
+  url: https://helloyumi.com/terms/
+- type: PrivacyPolicy
+  url: https://helloyumi.com/privacy-policy/
+- type: Blog
+  url: https://helloyumi.com/blog/
+- type: Support
+  url: https://helloyumi.com/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
