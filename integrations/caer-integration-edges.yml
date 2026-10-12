@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/caer/integrations
+- https://n8n.io/integrations/caer/
+- https://composio.dev/toolkits/caer
+- https://monid.ai/tools/caer
+checked:
+- https://composio.dev/toolkits/caer
+- https://monid.ai/tools/caer
+- https://n8n.io/integrations/caer/
+- https://zapier.com/apps/caer/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
